@@ -1,0 +1,97 @@
+:root { 
+    --color-black: #313131;
+    --color-white: #FFFFFFFF;
+    --color-purple_200:#FFBB86FC;
+    --color-purple_500:#FF6200EE;
+    --color-purple_700:#FF3700B3;
+
+    --color-teal_200:#FF03DAC5;
+    --color-teal_700:#FF018786;
+
+
+  }
+
+body {
+    background-color: var(--color-black);
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -400px;
+  }
+  .message-box {
+    height: 200px;
+    width: 380px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: 50px;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  .message-box h1 {
+    font-size: 60px;
+    line-height: 46px;
+    margin-bottom: 40px;
+  }
+  .buttons-con .action-link-wrap {
+    margin-top: 40px;
+  }
+  .buttons-con .action-link-wrap a {
+    background: #f50606;
+    padding: 20px 55px;
+    border-radius: 4px;
+    color: #03ff03;
+    font-weight: bold;
+    font-size: 28px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px
+  }
+  .buttons-con .action-link-wrap a:hover {
+    background: #03ff03;
+    color: #f50606;
+  }
+  
+  #Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+    animation: float 1s infinite ease-in-out alternate;
+  }
+  #Polygon-2 {
+    animation-delay: .2s; 
+  }
+  #Polygon-3 {
+    animation-delay: .4s; 
+  }
+  #Polygon-4 {
+    animation-delay: .6s; 
+  }
+  #Polygon-5 {
+    animation-delay: .8s; 
+  }
+  
+  @keyframes float {
+      100% {
+      transform: translateY(20px);
+    }
+  }
+  @media (max-width: 450px) {
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -250px;
+      margin-left: -190px;
+    }
+    .message-box {
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -190px;
+      text-align: center;
+    }
+  }
