@@ -1,0 +1,11 @@
+{
+  "name": "stpapi",
+  "version": "1.0.0",
+  "description": "Transformando São Tomé e Príncipe em uma API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vagner Bom Jesus",
+  "license": "MIT"
+}
